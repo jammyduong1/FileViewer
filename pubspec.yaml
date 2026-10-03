@@ -1,0 +1,35 @@
+name: file_viewer
+description: A powerful Android file viewer supporting PDF, EPUB, HTML, Word, Excel formats with dark mode.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  file_picker: ^6.1.1
+  syncfusion_flutter_pdfviewer: ^23.1.36
+  epub: ^3.1.0
+  webview_flutter: ^4.2.0
+  flutter_pptx: ^0.0.16
+  excel: ^2.0.0
+  pdf: ^3.10.4
+  path_provider: ^2.1.1
+  permission_handler: ^11.4.4
+  flutter_tts: ^8.1.0
+  intl: ^0.19.0
+  google_fonts: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
